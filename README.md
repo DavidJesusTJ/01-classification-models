@@ -21,37 +21,36 @@ La intención es no solo aplicar modelos de clasificación, sino también mostra
 
 ## Flujo de trabajo
 
-1. Carga y comprensión de los datos
-
+1. **Carga y comprensión de los datos**
   * Inspección inicial de las variables.
   * Identificación de tipos de datos y tratamiento de valores faltantes.
   * Análisis de balance/desbalance de clases.
 
-2. Análisis Exploratorio de Datos (EDA)
+2. **Análisis Exploratorio de Datos (EDA)**
 
   * Estadísticos descriptivos.
   * Visualización de distribuciones y relaciones.
   * Identificación de patrones y posibles problemas en los datos.
 
-3. Preprocesamiento
+3. **Preprocesamiento**
 
   * Codificación de variables categóricas.
   * Escalado y normalización.
   * Selección y/o generación de nuevas variables.
 
-4. Entrenamiento de modelos
+4. **Entrenamiento de modelos**
 
   * Implementación de múltiples clasificadores.
   * Ajuste de hiperparámetros mediante técnicas como Grid Search o Random Search.
   * Validación cruzada para evaluar robustez.
 
-5. Evaluación y comparación
+5. **Evaluación y comparación**
 
   * Métricas: Accuracy, Precision, Recall, F1-score, ROC-AUC.
   * Matriz de confusión y análisis de errores.
   * Comparación visual de desempeño entre modelos.
 
-6. Reporte final
+6. **Reporte final**
 
   * Resumen de hallazgos.
   * Interpretación de resultados.
