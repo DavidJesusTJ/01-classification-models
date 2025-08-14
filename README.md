@@ -109,9 +109,10 @@ Este repositorio no se limita a “probar modelos y mostrar métricas”, sino q
 
 ---
 
-## Estructura de la carpeta
+## Estructura de las carpetas
 
-01-classification-models/
+```
+01-primer-modelo/
 │
 ├── 0_data/                # Conjuntos de datos de ejemplo.
 ├── 1_eda/                 # Análisis exploratorio de los datos.
@@ -119,3 +120,10 @@ Este repositorio no se limita a “probar modelos y mostrar métricas”, sino q
 ├── 3_model/               # Modelado de datos donde se calculan metricas de evaluación y se realiza el tunning del modelo.
 ├── 4_reports/             # Reportes generados con resultados y análisis
 └── README.md              # Explicación teórica del modelo
+```
+---
+
+## Autor
+
+Desarrollado por David Jesus Torres Jorges, Egresado en Ingeniería Estadística e Informático, con enfoque en análisis de datos, modelado estadístico y machine learning aplicado.
+
