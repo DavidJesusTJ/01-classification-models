@@ -21,36 +21,37 @@ La intención es no solo aplicar modelos de clasificación, sino también mostra
 
 ## Flujo de trabajo
 
-1. **Carga y comprensión de los datos**
+* **Carga y comprensión de los datos**
+
   * Inspección inicial de las variables.
   * Identificación de tipos de datos y tratamiento de valores faltantes.
   * Análisis de balance/desbalance de clases.
 
-2. **Análisis Exploratorio de Datos (EDA)**
+* **Análisis Exploratorio de Datos (EDA)**
 
   * Estadísticos descriptivos.
   * Visualización de distribuciones y relaciones.
   * Identificación de patrones y posibles problemas en los datos.
 
-3. **Preprocesamiento**
+* **Preprocesamiento**
 
   * Codificación de variables categóricas.
   * Escalado y normalización.
   * Selección y/o generación de nuevas variables.
 
-4. **Entrenamiento de modelos**
+* **Entrenamiento de modelos**
 
   * Implementación de múltiples clasificadores.
   * Ajuste de hiperparámetros mediante técnicas como Grid Search o Random Search.
   * Validación cruzada para evaluar robustez.
 
-5. **Evaluación y comparación**
+* **Evaluación y comparación**
 
   * Métricas: Accuracy, Precision, Recall, F1-score, ROC-AUC.
   * Matriz de confusión y análisis de errores.
   * Comparación visual de desempeño entre modelos.
 
-6. **Reporte final**
+* **Reporte final**
 
   * Resumen de hallazgos.
   * Interpretación de resultados.
@@ -60,7 +61,7 @@ La intención es no solo aplicar modelos de clasificación, sino también mostra
 
 ## Modelos a implementar
 
-* Modelos estadísticos:
+* **Modelos estadísticos:**
 
   * Logistic Regression
   * Ridge Classifier
@@ -68,17 +69,17 @@ La intención es no solo aplicar modelos de clasificación, sino también mostra
   * Quadratic Discriminant Analysis (QDA)
   * Naive Bayes (Gaussian, Multinomial, Bernoulli)
 
-* Modelos basados en distancias:
+* **Modelos basados en distancias:**
 
   * K-Nearest Neighbors (KNN)
   * Radius Neighbors
   * Nearest Centroid
 
-* Modelos de margen máximo:
+* **Modelos de margen máximo:**
 
   * Support Vector Machines (SVC, NuSVC, LinearSVC)
 
-* Modelos de ensamble:
+* **Modelos de ensamble:**
 
   * Random Forest
   * Gradient Boosting
@@ -86,10 +87,13 @@ La intención es no solo aplicar modelos de clasificación, sino también mostra
   * LightGBM
   * CatBoost
 
-* Modelos neuronales:
+* **Modelos neuronales:**
 
+  * Perceptron
   * Multi-Layer Perceptron (MLPClassifier)
-  * Modelos semi-supervisados:
+
+* **Modelos semi-supervisados:**
+  
   * Label Propagation
   * Label Spreading
 
